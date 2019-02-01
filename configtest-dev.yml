@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:7001
+      profile: dev
+server:
+  port: 7002
+from:dev
